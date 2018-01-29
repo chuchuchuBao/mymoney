@@ -1,0 +1,166 @@
+body {
+  background-color: #fff;
+}
+.register {
+  max-width: 7.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.register .header {
+  width: 100%;
+  height: .73rem;
+  line-height: .72rem;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e7;
+  color: #121212;
+  font-size: .32rem;
+}
+.register .header .back-icon {
+  width: .21rem;
+  height: .36rem;
+  position: absolute;
+  left: 4%;
+  top: .24rem;
+}
+.register .logo {
+  width: 100%;
+  padding-top: .62rem;
+  padding-bottom: .11rem;
+}
+.register .logo h2 {
+  width: 1.23rem;
+  height: 1.23rem;
+  margin: 0 auto;
+}
+.register .main {
+  width: 100%;
+  padding-left: 5.2%;
+  padding-right: 5.2%;
+}
+.register .main .phone {
+  height: .61rem;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f7;
+  position: relative;
+  margin-top: .47rem;
+}
+.register .main .phone input {
+  width: 100%;
+  height: 100%;
+  font-size: .24rem;
+  color: #adadad;
+}
+.register .main .phone .hidden {
+  width: .29rem;
+  height: .13rem;
+  position: absolute;
+  right: 0;
+  bottom: .19rem;
+}
+.register .main .password {
+  height: .61rem;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f7;
+  margin-top: .36rem;
+}
+.register .main .password input {
+  width: 100%;
+  height: 100%;
+  font-size: .24rem;
+  color: #adadad;
+}
+.register .main .img-code {
+  height: .61rem;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f7;
+  margin-top: .36rem;
+  position: relative;
+}
+.register .main .img-code input {
+  width: 100%;
+  height: 100%;
+  font-size: .24rem;
+  color: #adadad;
+}
+.register .main .img-code .right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  right: .01rem;
+  bottom: .16rem;
+}
+.register .main .img-code .right .font {
+  color: #0fa2ff;
+  font-size: .22rem;
+  margin-top: 0.44rem;
+}
+.register .main .img-code .right .img {
+  margin-left: .14rem;
+  width: 1.12rem;
+  height: .48rem;
+  margin-top: .31rem;
+}
+.register .main .msg {
+  height: .61rem;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f7;
+  margin-top: .36rem;
+  position: relative;
+}
+.register .main .msg input {
+  width: 100%;
+  height: 100%;
+  font-size: .24rem;
+  color: #adadad;
+}
+.register .main .msg .btn {
+  width: 1.34rem;
+  height: .42rem;
+  position: absolute;
+  right: 0;
+  bottom: .2rem;
+}
+.register .main .msg .btn button {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #fc241f;
+  font-size: .2rem;
+  -webkit-border-radius: .03rem;
+          border-radius: .03rem;
+}
+.register .main .register-btn {
+  width: 100%;
+  margin-top: .97rem;
+  height: .78rem;
+}
+.register .main .register-btn button {
+  width: 100%;
+  height: 100%;
+  background-color: #ff6c4f;
+  color: #fff;
+  font-size: .36rem;
+  -webkit-border-radius: .05rem;
+          border-radius: .05rem;
+}
+.register .main .item {
+  width: 100%;
+  padding-left: .16rem;
+  margin-top: .35rem;
+  color: #666;
+  font-size: .22rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.register .main .item .xieyi {
+  color: #0fa2ff;
+}
+.register .main .item .login {
+  color: #fc241f;
+}

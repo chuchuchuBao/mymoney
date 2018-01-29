@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/zhuce.css">
+    <script src="js/rem.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+</head>
+<body>
+    <div class="register">
+        <div class="header">
+            <div class="back-icon"><img src="img/back2.png" alt=""></div>
+            注册
+        </div>
+        <div class="logo">
+            <h2><img src="img/logo.png" alt=""></h2>
+        </div>
+        <div class="main">
+            <div class="phone">
+                <input type="number" placeholder="请输入手机号" pattern="[0-9]*" maxlength="11" onkeyup="value=value.replace(/\D/g,'')" onpaste="value=value.replace(/\D/g,'')">
+                <div class="hidden"><img src="img/hidden.png" alt=""></div>
+            </div>
+            <div class="password">
+                <input type="number" placeholder="请输入密码（6-16位字母或者数字）" pattern="[0-9]*" maxlength="16" onkeyup="value=value.replace(/\D/g,'')" onpaste="value=value.replace(/\D/g,'')"></div>
+            <div class="img-code">
+                <input type="text" placeholder="请输入图形验证码" maxlength="4" onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9]/g,'')" onpaste="value=value.replace(/[^\a-\z\A-\Z0-9]/g,'')">
+                <div class="right">
+                    <div class="font">看不清换一张</div>
+                    <div class="img"><img src="img/code.png" alt=""></div>
+                </div>
+            </div>
+            <div class="msg">
+                <input type="text" placeholder="请输入短信验证码" maxlength="4">
+                <div class="btn">
+                    <button>获取验证码</button>
+                </div>
+            </div>
+            <div class="register-btn">
+                <button>注册</button>
+            </div>
+            <div class="item">
+                <span>我已阅读并同意<i class="xieyi">《沙小僧注册协议》</i></span>
+                <span>已有账号<i class="login">马上登录</i></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

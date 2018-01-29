@@ -2,6 +2,7 @@ body {
   background-color: #f8f8f8;
 }
 .shezhi {
+  position: relative;
   max-width: 7.5rem;
   width: 100%;
   margin: 0 auto;
@@ -128,4 +129,197 @@ body {
   height: 100%;
   color: #fff;
   font-size: .36rem;
+}
+.shezhi .cunguan {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 4.16rem 14.13333333% 1.62rem;
+  display: none;
+}
+.shezhi .cunguan .box {
+  width: 5.42rem;
+  height: 3.44rem;
+  background-color: #fff;
+  -webkit-border-radius: .16rem;
+          border-radius: .16rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid #b6b6b6;
+}
+.shezhi .cunguan .box .top {
+  width: .79rem;
+  height: .89rem;
+  -webkit-align-self: center;
+          align-self: center;
+  margin-top: .44rem;
+}
+.shezhi .cunguan .box .zh {
+  font-size: .3rem;
+  color: #666;
+  margin-top: .36rem;
+}
+.shezhi .cunguan .box .click {
+  font-size: .36rem;
+  color: #ff524f;
+  margin-top: .54rem;
+}
+.shezhi .cunguan .box .close-icon {
+  position: absolute;
+  width: .31rem;
+  height: .31rem;
+  top: .27rem;
+  right: .27rem;
+}
+.shezhi .cunguan .box2 {
+  margin-top: .71rem;
+}
+.shezhi .cv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.92rem 14.13333333% 1.1rem;
+  display: none;
+}
+.shezhi .cv .box {
+  width: 5.42rem;
+  height: 3.44rem;
+  background-color: #fff;
+  -webkit-border-radius: .16rem;
+          border-radius: .16rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid #b6b6b6;
+}
+.shezhi .cv .box .top {
+  width: .79rem;
+  height: .89rem;
+  -webkit-align-self: center;
+          align-self: center;
+  margin-top: .44rem;
+}
+.shezhi .cv .box .zh {
+  font-size: .3rem;
+  color: #666;
+  margin-top: .36rem;
+}
+.shezhi .cv .box .click {
+  font-size: .36rem;
+  color: #ff524f;
+  margin-top: .54rem;
+}
+.shezhi .cv .box .close-icon {
+  position: absolute;
+  width: .31rem;
+  height: .31rem;
+  top: .27rem;
+  right: .27rem;
+}
+.shezhi .cv .box2 {
+  margin-top: .49rem;
+}
+.shezhi .bangka {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 4.16rem 14.13333333% 1.62rem;
+  display: none;
+}
+.shezhi .bangka .box {
+  width: 5.4rem;
+  height: 3.04rem;
+  -webkit-border-radius: .16rem;
+          border-radius: .16rem;
+  border-bottom: 1px solid #b6b6b6;
+  background-color: #fff;
+  position: relative;
+}
+.shezhi .bangka .box .top {
+  width: 100%;
+  height: 1.3rem;
+  background: url("../img/bgcolor.png") no-repeat;
+  background-size: 100% 100%;
+  font-size: .42rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.3rem;
+}
+.shezhi .bangka .box .bottom {
+  text-align: center;
+}
+.shezhi .bangka .box .bottom p {
+  font-size: .3rem;
+  color: #333;
+  margin-top: .44rem;
+}
+.shezhi .bangka .box .bottom .font {
+  width: 3.05rem;
+  height: .22rem;
+  margin: .22rem auto 0;
+  display: block;
+}
+.shezhi .bangka .close-icon {
+  position: absolute;
+  width: .31rem;
+  height: .31rem;
+  top: .29rem;
+  right: .31rem;
+}
+.shezhi .loading {
+  width: 100%;
+  position: absolute;
+  background-color: #f8f8f8;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.shezhi .loading .header {
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #fff;
+  font-size: .36rem;
+  color: #333;
+  text-align: center;
+  height: .84rem;
+  line-height: .84rem;
+}
+.shezhi .loading .header .back-icon {
+  width: .21rem;
+  height: .36rem;
+  position: absolute;
+  left: 4%;
+  top: .24rem;
+}
+.shezhi .loading .warp {
+  padding-top: 2.9rem;
+  padding-bottom: 6.8rem;
+  width: 100%;
+  height: 100%;
+}
+.shezhi .loading .warp .box {
+  width: 2.85rem;
+  height: 2.60rem;
+  margin: 0 auto;
 }
